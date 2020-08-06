@@ -1,8 +1,8 @@
 {
-  "name": "vuepress-plugin-element-tabs",
+  "name": "vuepress-plugin-element-tabs-less",
   "version": "0.2.8",
-  "description": "Vuepress plugin - Tabs Container for Vuepress",
-  "author": "superbiger",
+  "description": "Vuepress plugin - Tabs Container for Vuepress without SASS",
+  "author": "tortorse",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superbiger/vuepress-plugin-tabs.git"
+    "url": "git+https://github.com/tortorse/vuepress-plugin-tabs.git"
   },
   "keywords": [
     "vuepress-plugin",
@@ -20,17 +20,16 @@
     "component"
   ],
   "bugs": {
-    "url": "https://github.com/superbiger/vuepress-plugin-tabs/issues"
+    "url": "https://github.com/tortorse/vuepress-plugin-tabs/issues"
   },
-  "homepage": "https://github.com/superbiger/vuepress-plugin-tabs#readme",
+  "homepage": "https://github.com/tortorse/vuepress-plugin-tabs#readme",
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "release-it": "^10.3.1",
     "vuepress": "^1.0.1"
   },
   "dependencies": {
-    "node-sass": "^4.11.0",
-    "resize-observer-polyfill": "^1.5.1",
-    "sass-loader": "^7.1.0"
+    "less-loader": "^6.2.0",
+    "resize-observer-polyfill": "^1.5.1"
   }
 }
