@@ -1,0 +1,25 @@
+@import './config.less';
+
+.b(@block; @content) {
+  .@{namespace}-@{block} {
+    @content()
+  }
+}
+
+.e(@element; @content) {
+  &@{element-separator}@{element} {
+    @content();
+  }
+}
+
+.m(@modifier; @content) {
+  &@{modifier-separator}@{modifier} {
+    @content();
+  }
+}
+
+.when(@state; @content) {
+  &.@{state-prefix}@{state} {
+    @content();
+  }
+}
