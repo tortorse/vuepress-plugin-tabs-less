@@ -12,7 +12,7 @@ module.exports = (options, context) => ({
   },
   chainMarkdown (config) {
     config
-      .plugin('@superbiger/tabs')
+      .plugin('@tortorse/vuepress-tabs')
       .use(require('./lib/markdownItPlugin'), [options])
       .end()
   }
