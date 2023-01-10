@@ -12,7 +12,7 @@ If you don't want install python (node-sass need it), you can install this plugi
 Vuepress plugin - markdown custom container to display content in tabs from [Element UI](https://github.com/ElemeFE/element)
 
 ## Docs
-> https://superbiger.github.io/vuepress-plugin-tabs
+> https://tortorse.github.io/vuepress-plugin-tabs-less/
 
 ## Install
 > This plugin requires VuePress >= 1.0.0, for now you can try it via yarn add vuepress@next -D 
