@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# element-tabs
+# vuepress-plugin-element-tabs-less
 
 <a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/v/vuepress-plugin-element-tabs.svg" alt="Version"></a>
 <a href="https://www.npmjs.com/package/vuepress-plugin-element-tabs"><img src="https://img.shields.io/npm/l/vuepress-plugin-element-tabs.svg" alt="License"></a>
@@ -47,7 +47,7 @@ This plugin requires VuePress >= 1.0.0
 :::
 
 ```
-yarn add vuepress-plugin-element-tabs -D
+yarn add vuepress-plugin-element-tabs-less -D
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ yarn add vuepress-plugin-element-tabs -D
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    'vuepress-plugin-element-tabs'
+    'vuepress-plugin-element-tabs-less'
   ]
 }
 ```
