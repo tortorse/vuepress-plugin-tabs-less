@@ -3,7 +3,7 @@ const path = require('path')
 console.log(path.resolve(__dirname, '../../index.js'))
 
 module.exports = {
-  base: "/vuepress-plugin-element-tabs-less/",
+  base: "/vuepress-plugin-tabs-less/",
   title: "vuepress-plugin-element-tabs-less",
   description: "markdown custom container to display content in tabs",
   themeConfig: {
