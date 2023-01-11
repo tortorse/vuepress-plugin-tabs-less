@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/thanks-element-brightgreen.svg"/>
 <img src="https://img.shields.io/badge/thanks-vuepress--plugin--tabs-brightgreen"/>
 
-This is another version of [vuepress-plugin-tabs](https://github.com/tortorse/vuepress-plugin-tabs) that replace the css preprocessor  to LESS.
+This is another version of [vuepress-plugin-tabs](https://github.com/tortorse/vuepress-plugin-tabs) that replace the css preprocessor  to LESS.This plugin just for `Vue 2.x` and `VuePress 1.x`
 
 If you don't want install python (node-sass need it), you can install this plugin.
 
@@ -76,39 +76,6 @@ __markdown content__
 |label|title of the tab|String|-|-|
 |lazy|whether Tab is lazily rendered|Boolean|-|false|
 
-### Q&A
-* How to get mouse position with canvas ?
-```javascript
+### License
 
-var canvas = document.getElementById('screen');
-var mouse = getMouse(canvas);
-
-function addEvent(obj, type, handle) {
-  try {
-    obj.addEventListener(type, handle, false);
-  } catch (e) {
-    try {
-      obj.attachEvent("on" + type, handle);
-    } catch (e) {
-      obj["on" + type] = handle;
-    }
-  }
-}
-
-function getMouse(element) {
-  var mouse = { x: 0, y: 0 };
-
-  addEvent(element, "mousemove", function(e) {
-    var x, y;
-    var e = e || window.event;
-    const box = element.getBoundingClientRect();
-    x = e.clientX - box.x;
-    y = e.clientY - box.y;
-    mouse.x = x;
-    mouse.y = y;
-  });
-
-  return mouse;
-}
-```
-
+[MIT](./LICENSE)
